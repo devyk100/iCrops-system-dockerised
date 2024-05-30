@@ -1,0 +1,5 @@
+savedImages
+# ./backend/node_modules
+# ./backend/savedImages
+# .env
+postgres-data

@@ -1,0 +1,11 @@
+Docker engine must be installed.
+
+For running the first time.
+
+The nginx.conf file should be changed to comply with the domain name for the server that will be used.
+
+`docker-compose run --rm certbot certonly --standalone -d yourdomain.com.`
+
+The nginx.conf needs to be changed accordingly when adding https to the domain.
+
+Even if the domain is http, still the server name needs to be changed.
